@@ -1,0 +1,34 @@
+/* Center the navbar tabs */
+.navbar-default .navbar-nav {
+  float: none !important;
+  margin: 0 auto !important;
+  display: table !important;
+}
+
+/*
+.well {
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.well:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  background-color: #f2f2f2;
+}
+*/
+
+.card-style {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  width: 480px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.card-style:hover {
+  background-color: #e9ecef; /* Slightly darker */
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* Stronger depth */
+}
